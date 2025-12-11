@@ -35,4 +35,12 @@ return [
         ],
     ],
 
+    'fixer' => [
+        'api_key' => env('FIXER_API_KEY'),
+    ],
+
+    'currencyapi' => [
+        'api_key' => env('CURRENCYAPI_API_KEY'),
+    ],
+
 ];

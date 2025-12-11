@@ -42,7 +42,7 @@ class HpeResult extends Model
         return $this->belongsTo(ExchangeRate::class);
     }
 
-    public function calculator(): BelongsTo
+    public function calculatedBy(): BelongsTo
     {
         return $this->belongsTo(User::class, 'calculated_by');
     }
